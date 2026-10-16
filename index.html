@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Route Mapper">
+<meta name="theme-color" content="#14536a">
+<title>Route Mapper</title>
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; background: #101a21; }
+  iframe {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    height: 100dvh;
+    border: 0;
+  }
+</style>
+</head>
+<body>
+  <!--
+    This page just shows the Route Mapper web app full-screen.
+    To point it at a different deployment, change the src below.
+  -->
+  <iframe
+    id="app"
+    title="Route Mapper"
+    src="https://script.google.com/macros/s/AKfycbzmITGOH5yN1z0SPs9yKwT-CbWkBFvk9DRQxHcxvwErl_mYrdee8mpyYfIyhNszTmRc/exec"
+    allow="clipboard-read; clipboard-write"
+  ></iframe>
+</body>
+</html>
